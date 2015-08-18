@@ -1,0 +1,10 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   RefactorIfStatement - \Potato.cs
+Pass 1:   RefactorIfStatement - \Properties\AssemblyInfo.cs
+Pass 1:   RefactorIfStatement - \RefactorIfStatements.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========
