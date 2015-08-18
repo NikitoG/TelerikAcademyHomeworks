@@ -1,0 +1,15 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   School - \Course.cs
+Pass 1:   School - \Properties\AssemblyInfo.cs
+Pass 1:   School - \School.cs
+Pass 1:   School - \Student.cs
+Pass 1:   School.Tests - \CourseTests.cs
+Pass 1:   School.Tests - \Properties\AssemblyInfo.cs
+Pass 1:   School.Tests - \SchoolTests.cs
+Pass 1:   School.Tests - \StudentsTests.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========
