@@ -1,0 +1,12 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   Cohesion-and-Coupling - \CalculateDistanceBetweenTwoPoints.cs
+Pass 1:   Cohesion-and-Coupling - \FileUtilities.cs
+Pass 1:   Cohesion-and-Coupling - \Parallelepiped.cs
+Pass 1:   Cohesion-and-Coupling - \UtilsExamples.cs
+Pass 1:   Cohesion-and-Coupling - \Validator.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========

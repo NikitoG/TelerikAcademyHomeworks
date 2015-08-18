@@ -1,0 +1,13 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   Abstraction - \Circle.cs
+Pass 1:   Abstraction - \Figure.cs
+Pass 1:   Abstraction - \FiguresExample.cs
+Pass 1:   Abstraction - \IFigure.cs
+Pass 1:   Abstraction - \Rectangle.cs
+Pass 1:   Abstraction - \Validator.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========

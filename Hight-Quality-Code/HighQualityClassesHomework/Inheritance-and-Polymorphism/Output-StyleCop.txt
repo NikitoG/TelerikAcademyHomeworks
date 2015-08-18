@@ -1,0 +1,12 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   Inheritance-and-Polymorphism - \Course.cs
+Pass 1:   Inheritance-and-Polymorphism - \CoursesExamples.cs
+Pass 1:   Inheritance-and-Polymorphism - \LocalCourse.cs
+Pass 1:   Inheritance-and-Polymorphism - \OffsiteCourse.cs
+Pass 1:   Inheritance-and-Polymorphism - \Validator.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========
