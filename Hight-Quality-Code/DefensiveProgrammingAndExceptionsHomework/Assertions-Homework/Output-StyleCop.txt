@@ -1,0 +1,11 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   Assertions-Homework - \AssertionsHelperMethods.cs
+Pass 1:   Assertions-Homework - \AssertionsHomework.cs
+Pass 1:   Assertions-Homework - \SearchingMethods.cs
+Pass 1:   Assertions-Homework - \SortingMethods.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========

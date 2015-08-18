@@ -1,0 +1,14 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   Exceptions-Homework - \CSharpExam.cs
+Pass 1:   Exceptions-Homework - \Exam.cs
+Pass 1:   Exceptions-Homework - \ExamResult.cs
+Pass 1:   Exceptions-Homework - \ExceptionsHomework.cs
+Pass 1:   Exceptions-Homework - \PrimeNumbers.cs
+Pass 1:   Exceptions-Homework - \SimpleMathExam.cs
+Pass 1:   Exceptions-Homework - \SubArrayMethods.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========
