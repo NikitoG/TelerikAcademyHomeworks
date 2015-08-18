@@ -1,0 +1,8 @@
+﻿
+------ StyleCop 4.7 (build 4.7.49.0) started ------
+
+Pass 1:   VariablesDataExpressionsAndConstantsHomework - \ArrayStatistics.cs
+
+------ StyleCop completed ------
+
+========== Violation Count: 0 ==========
