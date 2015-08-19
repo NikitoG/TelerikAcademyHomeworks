@@ -1,0 +1,2 @@
+C# is a computer programming languages. It`s a object-oriented  with a similar syntax to that of C and C++. C Sharp is part of .NET platform. C# and .NET were developed from Microsoft to response to Java technology.
+.Net platform is intended for development and use of console, desktop and web application. It`s developed by Microsoft and runs only on Windows. It includes a large library for different languages. 

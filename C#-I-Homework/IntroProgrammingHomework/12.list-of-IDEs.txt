@@ -1,0 +1,15 @@
+1. Aptana
+Is used with HTML, CSS, JavaScript, AJAX and others via plugins
+Aptana is a popular choice for web app development. Aptana Studio 2 can be used as a stand-alone IDE or can be plugged into Eclipse. Aptana comes with Firebug support built-in, and its developer community seems to release plugins for other languages as needed.
+2. Eclipse:
+Is used with C, C++, Python, Perl, PHP, Java, Ruby and more
+Eclipse is the free and open-source editor upon which many development frameworks are based. It's one of the granddaddies in its field and comes highly recommended by many a professional developer. Eclipse began as a Java development environment and has greatly expanded through a system of lightweight plugins.
+3. Monodevelop
+Is used with C/C++, Visual Basic, C# and other .NET languages
+Monodevelop is a good option if  you are working in a .NET languages and don`t want  to pay for Visual Studio. This IDE also allows you to port your apps to Linux While maintaining a single codebase.
+4. Coda
+Is used with PHP, JavaScript, CSS, HTML, AppleScript and Cocoa API
+Coda bills itself as "one-window development" for the Mac user, and its a favorite of many developers on this platform. It's a full-featured IDE, but one of its most interesting features is live collaboration with other users.
+5. CodeRun
+Is used with  ASP.NET, PHP, Ajax, C#, JavaScript, CSS, HTML and more
+This browser -based IDE works in Chrome, Firefox, Safari and even good old Internet Explorer. Like the more robust multi-language IDEs, CodeRun supports Visual Studio projects and .NET languages. Best of all, your code is sharable via hyperlinks; it's even got built-in social sharing tools, should you want to tweet your code.

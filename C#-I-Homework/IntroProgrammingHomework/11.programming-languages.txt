@@ -1,0 +1,17 @@
+1. Java:
+Java is class-based, object-oriented computer programming language developed by James Gosling at Sun Microsystems.
+It is intended use for application, business, client-side and Web.
+Java is designed  to work across multiple software platforms.
+2. Ruby:
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language developed by Yukihiro "Matz" Matsumoto.
+Ruby is designed for programmer productivity and fun, following the principles of good user interface design. It is most commonly used for Application, scripting and Web.
+3. Python:
+Python is a widely used general-purpose, high-level programming language, used for Application, general, Web, scripting, AI, scientific computing. It powers the web apps for Instagram, Pinterest and Rdio through its associated web framework, Django, and is used by Google, Yahoo! and NASA.
+4. PHP
+PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. 
+It can be directly embedded into an HTML source document rather than an external file, 
+which has made it a popular programming language for web developers. PHP powers more than 200 million websites, including Wordpress, Digg and Facebook.
+5. JavaScript
+JavaScript is a dynamic computer programming language. 
+The most common use of JavaScript is to add client-side behavior to HTML pages, a.k.a. Dynamic HTML (DHTML).
+.JavaScript is similar or closely related to Java. Both of them have a C-like syntax.
