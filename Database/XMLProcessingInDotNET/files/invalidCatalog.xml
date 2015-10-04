@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue culture="en-US">
+  <album>
+    <name>The King of Limbs</name>
+    <artist>Radiohead</artist>
+    <year>2011</year>
+    <price>36.57</price>
+    <song title="Bloom" length="5:15"/>
+    <song title="Morning Mr Magpie" length="4:41"/>
+    <song title="Little by Little" length="4:27"/>
+    <song title="Feral" length="3:13"/>
+    <song title="Lotus Flower" length="5:01"/>
+    <song title="Codex" length="4:47"/>
+    <song title="Give Up the Ghost" length="4:50"/>
+    <song title="Separator" length="5:20"/>
+  </album>
+  <album>
+    <artist>Radiohead</artist>
+    <year>1997</year>
+    <producer>Nigel Godrich</producer>
+    <price>16.57</price>
+  </album>
+</catalogue>

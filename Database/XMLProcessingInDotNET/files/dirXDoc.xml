@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir name="Desktop">
+  <file name="desktop" extension=".ini" />
+  <file name="Eazfuscator.NET" extension=".lnk" />
+  <file name="Git Shell" extension=".lnk" />
+  <file name="GitHub" extension=".appref-ms" />
+  <file name="GoToGate_FB" extension=".pdf" />
+  <file name="Стартов панел с приложения за Chrome" extension=".lnk" />
+  <dir name="LG Bello">
+    <file name="branding" extension=".zip" />
+    <file name="data" extension=".zip" />
+    <file name="iqs" extension=".zip" />
+    <file name="skinevo_android_2.4" extension=".zip" />
+    <file name="skinevo_blaupunktav_android_2.4" extension=".zip" />
+    <file name="sys.txt+original" extension=".rar" />
+  </dir>
+</dir>

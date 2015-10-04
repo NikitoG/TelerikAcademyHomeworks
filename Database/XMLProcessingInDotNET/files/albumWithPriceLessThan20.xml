@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xslt"?>
+<catalogue culture="en-US">
+  <album>
+    <name>OK Computer</name>
+    <artist>Radiohead</artist>
+    <year>1997</year>
+    <producer>Nigel Godrich</producer>
+    <price>16.57</price>
+    <song title="Airbag" length="4:44" />
+    <song title="Paranoid Android" length="6:23" />
+    <song title="Subterranean Homesick Alien" length="4:27" />
+    <song title="Exit Music (For a Film)" length="4:24" />
+    <song title="Let Down" length="4:59" />
+    <song title="Karma Police" length="4:21" />
+    <song title="Fitter Happier" length="1:57" />
+    <song title="Electioneering" length="3:50" />
+    <song title="Climbing Up the Walls" length="4:45" />
+    <song title="No Surprises" length="3:48" />
+    <song title="Lucky" length="4:19" />
+    <song title="The Tourist" length="5:24" />
+  </album>
+  <album>
+    <name>Third</name>
+    <artist>Portishead</artist>
+    <year>2008</year>
+    <producer>Portishead</producer>
+    <price>19.27</price>
+    <song title="Silence" length="4:58" />
+    <song title="Hunter" length="3:57" />
+    <song title="Nylon Smile" length="3:16" />
+    <song title="The Rip" length="4:29" />
+    <song title="Plastic" length="3:27" />
+    <song title="We Carry On" length="6:27" />
+    <song title="Deep Water" length="1:31" />
+    <song title="Machine Gun" length="4:43" />
+    <song title="Small" length="6:45" />
+    <song title="Magic Doors" length="3:32" />
+    <song title="Threads" length="5:45" />
+  </album>
+</catalogue>
