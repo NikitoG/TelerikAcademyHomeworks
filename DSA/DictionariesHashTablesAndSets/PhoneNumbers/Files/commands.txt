@@ -1,0 +1,4 @@
+find(Mimi)
+find(o, ar)
+find(Mimi Shmatkata)
+find(i)
