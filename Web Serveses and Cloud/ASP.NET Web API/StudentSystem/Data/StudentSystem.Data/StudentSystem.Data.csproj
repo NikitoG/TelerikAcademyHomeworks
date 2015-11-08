@@ -54,6 +54,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201511072339336_Initial.cs" />
+    <Compile Include="Migrations\201511072339336_Initial.Designer.cs">
+      <DependentUpon>201511072339336_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511072345081_Initial1.cs" />
+    <Compile Include="Migrations\201511072345081_Initial1.Designer.cs">
+      <DependentUpon>201511072345081_Initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511072346272_Initial2.cs" />
+    <Compile Include="Migrations\201511072346272_Initial2.Designer.cs">
+      <DependentUpon>201511072346272_Initial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentSystemDbContext.cs" />
   </ItemGroup>
@@ -66,6 +79,17 @@
       <Project>{5811501f-bf6c-4bfd-8e90-39e0f795a6b6}</Project>
       <Name>StudentSystem.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201511072339336_Initial.resx">
+      <DependentUpon>201511072339336_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511072345081_Initial1.resx">
+      <DependentUpon>201511072345081_Initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511072346272_Initial2.resx">
+      <DependentUpon>201511072346272_Initial2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
