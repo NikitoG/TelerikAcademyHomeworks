@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Getting Started With PubNub</title>
+</head>
+<body>
+    <div id="textbox"></div>
+    <input type="text" name="Massage" id="input">
+    <input type="submit" value="Submit" id="submit" onclick="publish()">
+    <script src="https://cdn.pubnub.com/pubnub.min.js"></script>
+    <script charset="utf-8">
+        (function () {
+
+            var PUBNUB_demo = PUBNUB.init({
+                publish_key: 'pub-c-d8635a25-b556-4267-84c4-a9db379cd66a',
+                subscribe_key: 'sub-c-e809ad42-8bd8-11e5-bf00-02ee2ddab7fe'
+            });
+
+            PUBNUB_demo.subscribe({
+                channel: 'Mirca',
+                message: function (m) { document.getElementById('textbox').innerHTML = '<div>' + m + '</div>' + document.getElementById('textbox').innerHTML; },
+                connect: publish
+            });
+
+            function publish() {
+                var input = document.getElementById('input');
+                var msg = input.value;
+                input.value = '';
+                PUBNUB_demo.publish({
+                    channel: 'Mirca',
+                    message: msg
+                });
+            }
+            document.getElementById('submit').addEventListener('click', publish);
+
+        })();
+    </script>
+</body>
+</html>

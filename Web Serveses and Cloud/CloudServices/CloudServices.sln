@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppIronMq", "ChatAppIronMq\ChatAppIronMq.csproj", "{938F747A-6058-43B1-9758-1299D8D7E581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubNubChat", "PubNubChat\PubNubChat.csproj", "{C238109E-7057-4D88-BD60-C1CCB730B55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropboxAlbum", "DropboxAlbum\DropboxAlbum.csproj", "{EFBCE09C-996D-4078-9425-7F2A52898E71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{938F747A-6058-43B1-9758-1299D8D7E581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938F747A-6058-43B1-9758-1299D8D7E581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938F747A-6058-43B1-9758-1299D8D7E581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938F747A-6058-43B1-9758-1299D8D7E581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C238109E-7057-4D88-BD60-C1CCB730B55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C238109E-7057-4D88-BD60-C1CCB730B55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C238109E-7057-4D88-BD60-C1CCB730B55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C238109E-7057-4D88-BD60-C1CCB730B55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBCE09C-996D-4078-9425-7F2A52898E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBCE09C-996D-4078-9425-7F2A52898E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBCE09C-996D-4078-9425-7F2A52898E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBCE09C-996D-4078-9425-7F2A52898E71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
