@@ -1,0 +1,13 @@
+extends ./layout/index
+
+block navigation
+    ul.nav.navbar-nav
+        each nav in ['Home', 'Phones', 'Tablets', 'Wearables']
+            li(class=  nav == 'Home' ? "active" : "")
+                a(href='/' + nav)= nav
+
+block container
+    h1(style='margin-top: 60px') Welcome to Mobile device arena
+    #container.jumbotron
+        h2 Only yesterday
+        h3 Buy 3 Get 1
