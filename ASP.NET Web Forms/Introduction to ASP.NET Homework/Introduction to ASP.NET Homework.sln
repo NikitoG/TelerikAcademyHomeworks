@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcSumator", "MvcSumator\MvcSumator.csproj", "{219FCF94-A49D-4E84-8B54-7903F482276D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsSumator", "WebFormsSumator\WebFormsSumator.csproj", "{F2117326-D1CA-4FF5-8CC8-3C914B363AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHttpHandler", "CustomHttpHandler\CustomHttpHandler.csproj", "{78F7B4A6-EE1E-4508-8760-35F441D69917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{219FCF94-A49D-4E84-8B54-7903F482276D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219FCF94-A49D-4E84-8B54-7903F482276D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219FCF94-A49D-4E84-8B54-7903F482276D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219FCF94-A49D-4E84-8B54-7903F482276D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2117326-D1CA-4FF5-8CC8-3C914B363AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2117326-D1CA-4FF5-8CC8-3C914B363AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2117326-D1CA-4FF5-8CC8-3C914B363AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2117326-D1CA-4FF5-8CC8-3C914B363AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F7B4A6-EE1E-4508-8760-35F441D69917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F7B4A6-EE1E-4508-8760-35F441D69917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F7B4A6-EE1E-4508-8760-35F441D69917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F7B4A6-EE1E-4508-8760-35F441D69917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
