@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPageAspx", "HelloPageAspx\HelloPageAspx.csproj", "{10346F44-D098-4106-9E60-53817DD94F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageLifeCicle", "PageLifeCicle\PageLifeCicle.csproj", "{B806C034-AD29-45E7-A670-56631B0C9884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebbFormsApplication", "WebbFormsApplication\WebbFormsApplication.csproj", "{71E4D4AD-21A5-415F-AFC8-E827BC082443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10346F44-D098-4106-9E60-53817DD94F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10346F44-D098-4106-9E60-53817DD94F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10346F44-D098-4106-9E60-53817DD94F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10346F44-D098-4106-9E60-53817DD94F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B806C034-AD29-45E7-A670-56631B0C9884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B806C034-AD29-45E7-A670-56631B0C9884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B806C034-AD29-45E7-A670-56631B0C9884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B806C034-AD29-45E7-A670-56631B0C9884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E4D4AD-21A5-415F-AFC8-E827BC082443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E4D4AD-21A5-415F-AFC8-E827BC082443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E4D4AD-21A5-415F-AFC8-E827BC082443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E4D4AD-21A5-415F-AFC8-E827BC082443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
