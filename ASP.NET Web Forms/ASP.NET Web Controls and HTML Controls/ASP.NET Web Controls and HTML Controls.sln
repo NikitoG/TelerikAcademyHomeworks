@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGeneratorHtmlControls", "RandomGeneratorHtmlControls\RandomGeneratorHtmlControls.csproj", "{864686FF-64DA-4B3D-9112-B20AD663ADD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGeneratorWebControls", "RandomGeneratorWebControls\RandomGeneratorWebControls.csproj", "{6F425E12-696E-43A2-AF12-6981C129C59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escaping", "Escaping\Escaping.csproj", "{665AB528-7BA5-493E-AF1B-A4CD51968321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsAndCourses", "StudentsAndCourses\StudentsAndCourses.csproj", "{7F6D9F9A-F6DE-45B3-BEDA-DE05E037E401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{E9843638-B79A-467F-A4BB-53DCF0999104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{BDB87732-EBB8-4317-8991-70CFA142FFB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864686FF-64DA-4B3D-9112-B20AD663ADD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864686FF-64DA-4B3D-9112-B20AD663ADD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864686FF-64DA-4B3D-9112-B20AD663ADD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864686FF-64DA-4B3D-9112-B20AD663ADD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F425E12-696E-43A2-AF12-6981C129C59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F425E12-696E-43A2-AF12-6981C129C59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F425E12-696E-43A2-AF12-6981C129C59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F425E12-696E-43A2-AF12-6981C129C59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665AB528-7BA5-493E-AF1B-A4CD51968321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665AB528-7BA5-493E-AF1B-A4CD51968321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665AB528-7BA5-493E-AF1B-A4CD51968321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665AB528-7BA5-493E-AF1B-A4CD51968321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6D9F9A-F6DE-45B3-BEDA-DE05E037E401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6D9F9A-F6DE-45B3-BEDA-DE05E037E401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6D9F9A-F6DE-45B3-BEDA-DE05E037E401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6D9F9A-F6DE-45B3-BEDA-DE05E037E401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9843638-B79A-467F-A4BB-53DCF0999104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9843638-B79A-467F-A4BB-53DCF0999104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9843638-B79A-467F-A4BB-53DCF0999104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9843638-B79A-467F-A4BB-53DCF0999104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB87732-EBB8-4317-8991-70CFA142FFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB87732-EBB8-4317-8991-70CFA142FFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB87732-EBB8-4317-8991-70CFA142FFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB87732-EBB8-4317-8991-70CFA142FFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
