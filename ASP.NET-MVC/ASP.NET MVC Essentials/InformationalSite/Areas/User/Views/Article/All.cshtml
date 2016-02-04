@@ -1,0 +1,60 @@
+﻿@model PagedList.IPagedList<InformationalSite.Models.Article>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "All";
+}
+
+<h2>All Articles</h2>
+
+@using (Html.BeginForm("All", "Article", FormMethod.Get))
+{
+    <p>
+        Find by header or content: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Header", "All", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            Content
+        </th>
+        <th>
+            @Html.ActionLink("Rating", "All", new { sortOrder = ViewBag.RateSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Header)
+            </td>
+            @if (item.Content.Length > 50)
+            {
+                item.Content = item.Content.Substring(0, 47) + "...";
+                <td>
+                    @Html.DisplayFor(modelItem => (item.Content))
+                </td>
+            }
+            else
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("All",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

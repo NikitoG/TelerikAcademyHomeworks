@@ -1,0 +1,16 @@
+﻿@model IEnumerable<InformationalSite.Models.Article>
+@{
+    ViewBag.Title = "Top Articles";
+}
+
+@foreach (var currentArticle in Model)
+{
+    <article>
+        <h2>@currentArticle.Header</h2>
+        <p>@currentArticle.Content</p>
+        <p>
+            <i>Rating: @currentArticle.Rating</i>
+        </p>
+    </article>
+}
+

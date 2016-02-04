@@ -1,0 +1,76 @@
+﻿@model WebCalculator.Models.BitViewModels
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Web Calculator</h1>
+</div>
+<div class="row">
+    @using (Html.BeginForm("Index", "Home", FormMethod.Get, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(m => m.Value, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Value, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Type, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.Type, WebCalculator.Models.BitViewModels.GetTypeValues())
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Kilo, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.Kilo, WebCalculator.Models.BitViewModels.GetKilos())
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" class="btn btn-default" value="Go" />
+            </div>
+        </div>
+    }
+
+    @if (Model.Kilo == 0)
+    {
+        Model.Kilo = 1000;
+    }
+
+    <div id="resPost" style="margin-top:15px">
+        <table class="table table-striped table-condensed">
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        Bandwidth (Kilo = @Model.Kilo bits)
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td width="120">Bit</td><td width="150">@Model.InBits</td></tr>
+                <tr><td width="120">Byte</td><td width="150">@Model.InBytes</td></tr>
+                <tr><td width="120">Kilobit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 1))</td></tr>
+                <tr><td width="120">Kilobyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 1))</td></tr>
+                <tr><td width="120">Megabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 2))</td></tr>
+                <tr><td width="120">Megabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 2))</td></tr>
+                <tr><td width="120">Gigabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 3))</td></tr>
+                <tr><td width="120">Gigabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 3))</td></tr>
+                <tr><td width="120">Terabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 4))</td></tr>
+                <tr><td width="120">Terabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 4))</td></tr>
+                <tr><td width="120">Petabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 5))</td></tr>
+                <tr><td width="120">Petabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 5))</td></tr>
+                <tr><td width="120">Exabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 6))</td></tr>
+                <tr><td width="120">Exabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 6))</td></tr>
+                <tr><td width="120">Zettabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 7))</td></tr>
+                <tr><td width="120">Zettabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 7))</td></tr>
+                <tr><td width="120">Yottabit</td><td width="150">@(Model.InBits / Math.Pow(Model.Kilo, 8))</td></tr>
+                <tr><td width="120">Yottabyte</td><td width="150">@(Model.InBytes / Math.Pow(Model.Kilo, 8))</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
