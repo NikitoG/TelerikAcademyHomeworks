@@ -1,0 +1,73 @@
+﻿@model MoviesSite.Models.Movie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Female.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Female.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Male.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Male.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Studio.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Studio.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Director)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Director)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Ajax.ActionLink("Edit", "Edit", null, new { id = Model.Id },
+                                new AjaxOptions
+                                {
+                                    UpdateTargetId = "content",
+                                    LoadingElementId = "displayLoading",
+                                    HttpMethod = "GET",
+                                    InsertionMode = InsertionMode.Replace
+                                }, new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

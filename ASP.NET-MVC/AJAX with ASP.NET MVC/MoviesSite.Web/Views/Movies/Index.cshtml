@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MoviesSite.Web.Models.MovieViewModel>
+
+@{
+    ViewBag.Title = "Movies";
+}
+
+<h2>Movies With Ajax</h2>
+
+<p>
+    @Ajax.ActionLink("Get all movies", "GetAll", null,
+        new AjaxOptions
+        {
+            UpdateTargetId = "content",
+            LoadingElementId = "displayLoading",
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace
+        }, new { @class = "btn btn-primary" })
+
+    @Ajax.ActionLink("Create New", "Create", null,
+        new AjaxOptions
+        {
+            UpdateTargetId = "content",
+            LoadingElementId = "displayLoading",
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace
+        }, new { @class = "btn btn-danger" })
+</p>
+
+<div id="content">
+</div>
+<div id="displayLoading" style="display: none">Loading...</div>
