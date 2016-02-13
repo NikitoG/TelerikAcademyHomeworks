@@ -1,0 +1,19 @@
+﻿@model TwitterLikeSystem.Models.TwitViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Index</h2>
+
+@using (@Html.BeginForm("CreateTwit", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        Twit:
+        @Html.EditorFor(m => m.Content)
+    </div>
+    
+    <input type="submit" />
+}

@@ -1,0 +1,16 @@
+﻿@model TwitterLikeSystem.Models.Tag
+
+@{
+    ViewBag.Title = "Tag";
+}
+
+<h2>Tag</h2>
+
+<h3>@Model.Content</h3>
+
+@foreach (var twit in Model.Twits)
+{
+    <p>
+        Twit: @Html.Raw(twit.Content)
+    </p>
+}

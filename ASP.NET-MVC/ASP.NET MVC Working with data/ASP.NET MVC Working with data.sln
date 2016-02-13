@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterLikeSystem.Data", "TwitterLikeSystem.Data\TwitterLikeSystem.Data.csproj", "{5A8378F7-6700-4044-BDE8-94B2B8A3F79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterLikeSystem.Models", "TwitterLikeSystem.Models\TwitterLikeSystem.Models.csproj", "{62376D80-37AC-4C0B-9A5B-32AB4025AB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterLikeSystem", "TwitterLikeSystem\TwitterLikeSystem.csproj", "{EB981E47-245A-4729-ABF3-9633346DB75D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8378F7-6700-4044-BDE8-94B2B8A3F79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8378F7-6700-4044-BDE8-94B2B8A3F79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8378F7-6700-4044-BDE8-94B2B8A3F79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8378F7-6700-4044-BDE8-94B2B8A3F79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62376D80-37AC-4C0B-9A5B-32AB4025AB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62376D80-37AC-4C0B-9A5B-32AB4025AB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62376D80-37AC-4C0B-9A5B-32AB4025AB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62376D80-37AC-4C0B-9A5B-32AB4025AB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB981E47-245A-4729-ABF3-9633346DB75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB981E47-245A-4729-ABF3-9633346DB75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB981E47-245A-4729-ABF3-9633346DB75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB981E47-245A-4729-ABF3-9633346DB75D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

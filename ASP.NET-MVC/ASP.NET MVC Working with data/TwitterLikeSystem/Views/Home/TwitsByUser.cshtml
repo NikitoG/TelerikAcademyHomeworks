@@ -1,0 +1,13 @@
+﻿@model IEnumerable<TwitterLikeSystem.Models.Twit>
+@{
+    ViewBag.Title = "TwitsByUser";
+}
+
+<h2>All your twits</h2>
+
+@foreach (var twit in @Model)
+{
+    <p>
+        Twit: @Html.Raw(twit.Content)
+    </p>
+}
